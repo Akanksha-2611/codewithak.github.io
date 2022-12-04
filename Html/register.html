@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    .form-control
+    {
+      width: 300px;
+    }
+    body
+    {
+      background: url("https://media.istockphoto.com/id/170958625/photo/dark-blue-grunge-background.jpg?b=1&s=170667a&w=0&k=20&c=UV13_w89rM2RJbG-2l-aSD70qP6i3zkLD9QtFZUQMzA=");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .container1 h2
+{
+position: absolute;
+top: 1%;
+left: 28%;
+font-size:34px;
+color: rgb(31, 75, 96);
+}
+.container1 h3
+{
+position: absolute;
+top: 14%;
+left: 24%;
+font-size: 20px;
+font-family: 'Times New Roman', Times, serif;
+color: rgb(51, 116, 116);
+}
+.container1
+{ 
+  position: absolute;
+  top: 4%;
+  left: 27%;
+  align-items: center;
+  height: 556px;
+  width: 504px;
+  background-color: aliceblue;
+  /* border: 2px solid black; */
+  border-radius: 8px;
+  box-shadow: 5px 5px 8px white;
+}
+.container2
+{
+  position: relative;
+  top: 16%;
+  left: 7%;
+
+}
+.form-group label
+{
+  color: rgb(17, 53, 98);
+  font-size: 20px;
+}
+.form-group input
+{
+  color: rgb(40, 69, 69);
+  padding: 8px;
+}
+
+
+  </style>
+</head>
+<body>
+
+<div class="container1">
+  <h2>Create an account</h2>
+
+  <div class="container2">
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <br>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+    <br>
+    <div class="form-group">
+      <label for="username">Username:</label>
+      <br>
+      <input type="Username" class="form-control" id="Username" placeholder="Enter Username" name="Username">
+    </div>
+    <br>
+    <div class="form-group">
+        <label for="pwd">password:</label>
+        <br>
+        <input type="pwd" class="form-control" id="pwd" placeholder="Enter password" name="password">
+      </div>
+    <br>
+    <div class="form-group">
+      <label for="DOB">Date of birth:</label>
+      <select class="seelect1" name="Month" id="month">
+        <option value="jan">jan</option> 
+        <option value="feb">feb</option>
+        <option value="march">march</option>
+        <option value="april">April</option>
+        <option value="may">May</option>
+        <option value="june">june</option>
+        <option value="july">july</option>
+        <option value="Aug">Aug</option>
+        <option value="Sep">Sep</option>
+        <option value="Oct">Oct</option>
+        <option value="Nov">Nov</option>
+        <option value="Dec">Dec</option>
+      </select>
+      <select class="select2" name="day" id="day">
+        <option value="1">1</option> 
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+          <option value="13">13</option> 
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+           <option value="25">25</option> 
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>  
+      </select>
+      <select class="seelect3" name="Year" id="Year">
+      <option value="2001">2001</option> 
+      <option value="2002">2002</option>
+      <option value="2003">2003</option>
+      <option value="2004">2004</option>
+      <option value="2005">2005</option>
+      <option value="2006">2006</option>
+      <option value="2007">2007</option>
+      <option value="2008">2008</option>
+      <option value="2009">2009</option>
+      <option value="2010">2010</option>
+      <option value="2011">2011</option>
+      <option value="2012">2012</option>
+        <option value="2013">2013</option> 
+        <option value="2014">2014</option>
+        <option value="2015">2015</option>
+        <option value="2016">2016</option>
+        <option value="2017">2017</option>
+        <option value="2018">2018</option>
+        <option value="2019">2019</option>
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+      </select>
+    </div>
+    <br>
+    <div class="checkbox">
+      <label><input type="checkbox" name="remember"> Remember me</label>
+    </div>
+    <br>
+    <button type="continue" class="continue">continue</button>
+  </form>
+  <p>Already have an account?</p>
+</div>
+</div>
+
+</body>
+</html>
